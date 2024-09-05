@@ -1,0 +1,163 @@
+body {
+  background: rgb(219,219,219);
+  background: linear-gradient(90deg, rgba(219,219,219,1) 22%, rgba(255,255,255,1) 82%);
+}
+
+.App {
+  min-height: 100vh;
+  min-width: 90vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+}
+
+.div1 {
+  position: absolute;
+  top: 130px;
+  left: 350px;
+  width: 700px;
+  height: 400px;
+  background: rgb(67, 153, 201);
+  background: linear-gradient(90deg, rgba(67, 153, 201, 1) 23%, rgba(103, 195, 168, 1) 82%);
+  border-radius: 20px;
+}
+
+.day-date {
+  font-size: 20px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+}
+
+.day-location {
+  position: relative;
+  bottom: 20px;
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+}
+
+.day-time-location {
+  padding-left: 70px;
+  padding-top: 80px;
+  padding-right: 50px;
+}
+
+.image-div {
+  padding-top: 30px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.weather-condition {
+  position: relative;
+  bottom: 20px;
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+}
+
+.weather-feeling {
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  position: relative;
+  bottom: 60px;
+  right: 5px;
+}
+
+.weather-celcius {
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+  color: white;
+}
+
+.weather-celcius-feeling {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.bottom {
+  display: flex;
+  border-radius: 20px;
+  background-color: white;
+  width: 450px;
+  height: 100px;
+  margin-left: 130px;
+}
+
+.day-Night {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.bottom-inside {
+  display: flex;
+  margin-left: 25px;
+}
+
+.time-current {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+
+}
+
+.temperature {
+  font-family: Tahoma, sans-serif;
+  position: relative;
+  bottom: 50px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.div-heading {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-family: Tahoma, sans-serif;
+}
+
+.inside-small-div {
+  width: 100px;
+  margin-left: 5px;
+  text-align: center;
+  background-color: #415870;
+  margin-top: 26px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.my-cloud-image {
+  width: 150px;
+}
+
+.div2{
+  position: absolute;
+  top: 550px;
+  left: 500px;
+}
+.search-icon{
+  width: 20px;
+}
+.search-bar-div{
+  display: flex;
+}
+.search-bar{
+  padding-left: 20px;
+  width: 362px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.search-icon-div{
+  padding: 5px;
+}
